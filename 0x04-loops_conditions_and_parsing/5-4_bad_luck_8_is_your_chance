@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# loops from 1 to 10, displays back luck(4), good luck(8) and Best School for other iterations
+
+count=$1
+while [[ $count -lt 10 ]]
+do
+    count=$(( count + 1 ))
+    if [[ count -eq 4 ]]
+    then
+        echo "bad luck"
+    elif [[ count -eq 8 ]]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+done
