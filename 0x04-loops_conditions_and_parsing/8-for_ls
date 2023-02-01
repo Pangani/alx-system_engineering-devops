@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Displays content of a directory
+
+comnd=$(ls)
+for i in $comnd
+do
+    echo "$i" | cut -d '-' -f2
+done
