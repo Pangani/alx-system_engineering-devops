@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Using case and while loop
 
-count=$1
+count=1
 while [[ $count -le 20 ]]
 do
     echo "$count"
