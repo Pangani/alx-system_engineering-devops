@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Calculate average of a series of numbers
+
+for n in 0 1 2 3 4 5
+do
+    echo "BASH_VERSINFO[$n] = ${BASH_VERSINFO[$n]}"
+done
