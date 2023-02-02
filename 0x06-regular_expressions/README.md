@@ -10,7 +10,8 @@ For this project, you have to build your regular expression using Oniguruma, a r
     What tool/protocol is often used to check if a device is connected to a network
 
 <strong>Requirements</strong>
-<em>Bash Scripts</em>
+Bash Scripts
+
     Allowed editors: vi, vim, emacs
     All your Bash script files will be interpreted on Ubuntu 20.04 LTS
     All your files should end with a new line
